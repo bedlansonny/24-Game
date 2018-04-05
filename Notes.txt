@@ -1,0 +1,28 @@
+solver for 24 Game
+4nums.com
+https://en.wikipedia.org/wiki/24_Game
+same output as http://scripts.cac.psu.edu/staff/r/j/rjg5/Math24.htm ideally
+do w itertools, then later without for practice
+
+24 combos of 4 numbers
+64 combos of 3 of the 4 operators
+10 combos of 10 possible parenthese locations
+
+24*64*10 = 15360 checked solutions for each problem
+
+format:
+[(a~[(b)~(c)]~d)]
+ppnoppnpopnpponpp
+01  23 4 5 67  89
+
+parenthese combos:
+14
+58
+36
+1458
+07
+29
+0714
+0736
+2936
+2958
